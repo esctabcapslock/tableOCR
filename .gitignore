@@ -1,0 +1,10 @@
+venv
+.idea
+tb_logs
+*.pdf
+detecttable.jpg
+dst.png
+__pycache__
+tmp.csv
+/*.jpg
+/data/*zip
