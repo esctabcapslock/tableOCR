@@ -1,7 +1,20 @@
+# tableOCR
+- 이미지로 된 표를 csv로 변환
+
 venv\Scripts\activate
 
+## 대부분의 (뭔가 긴) 코드 원본
+- https://github.com/eihli/image-table-ocr
+- https://github.com/artperrin/image2csv
+	- 뭔가 이상하게 작동하지 않음
 
-# 변환
+## 내가 짠거
+- [ocr.py](/ocr.py)
+	- 그냥 통째로 넣으려 했지만 실패
+- [app.py](/app.py)
+	- 표 모양대로 자르려 했지만 실패
+
+## 변환
 1. 원본 jpg
 2. pdf 변환 (웹 등으로. 예를 들면 [이](https://imagetopdf.com/)[런](https://www.adobe.com/in/acrobat/online/jpg-to-pdf.html) 곳들)
 3. acrobat으로 OCR
